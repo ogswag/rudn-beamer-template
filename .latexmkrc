@@ -1,5 +1,3 @@
-# .latexmkrc - Configuration for latexmk
-
 # Use lualatex as the LaTeX engine
 $pdflatex = 'lualatex -interaction=nonstopmode %O %S';
 
@@ -8,9 +6,6 @@ $aux_dir = 'build';
 
 # Keep output PDF in current directory (comment out to put PDF in build/ too)
 # $out_dir = '.';
-
-# Ensure build directory exists (latexmk will create it automatically)
-# This is handled by the Makefile, but good to have as fallback
 
 # Enable quiet mode to reduce console noise (optional)
 $silence_logfile_warnings = 1;

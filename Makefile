@@ -1,6 +1,3 @@
-# Makefile for LaTeX project using latexmk
-
-# Name of your main .tex file (without extension)
 FILE = main
 
 # Build directory for auxiliary files
