@@ -1,0 +1,4 @@
+lists = ["enumerate"]
+wrap = false
+tabsize = 4
+tabchar = "space"
